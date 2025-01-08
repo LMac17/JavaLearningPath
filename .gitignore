@@ -27,3 +27,27 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Archivos de compilación
+/out/
+*.class
+
+# Maven/Gradle
+target/
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración sensible
+*.properties
+*.env
+
+# Entorno de producción generado por IntelliJ
+/out/
